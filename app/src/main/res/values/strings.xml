@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">첫화면 날씨</string>
+    <string name="naver_client_id">7_jsPQf8kSlEoQS6jsio</string>
+    <string name="naver_client_secret">_Vj1QMw9xo</string>
+    <string name="naver_client_name">yosan1111@naver.com</string>
+    <string name="kakao_app_key">49fedf62ef2e032b34dfbabea9bd9b65</string>
+</resources>

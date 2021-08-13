@@ -1,0 +1,46 @@
+package data
+
+data class Book(
+    val copyright: String,
+    val imageUrl: String,
+    val item: List<Item>,
+    val itemsPerPage: Int,
+    val language: String,
+    val link: String,
+    val maxResults: Int,
+    val pubDate: String,
+    val query: String,
+    val queryType: String,
+    val returnCode: String,
+    val returnMessage: String,
+    val searchCategoryId: String,
+    val searchCategoryName: String,
+    val startIndex: Int,
+    val title: String,
+    val totalResults: Int
+)
+data class Item(
+    val additionalLink: String,
+    val author: String,
+    val categoryId: String,
+    val categoryName: String,
+    val coverLargeUrl: String,
+    val coverSmallUrl: String,
+    val customerReviewRank: Double,
+    val description: String,
+    val discountRate: String,
+    val isbn: String,
+    val itemId: Int,
+    val link: String,
+    val mileage: String,
+    val mileageRate: String,
+    val mobileLink: String,
+    val priceSales: Int,
+    val priceStandard: Int,
+    val pubDate: String,
+    val publisher: String,
+    val reviewCount: Int,
+    val saleStatus: String,
+    val title: String,
+    val translator: String
+)
